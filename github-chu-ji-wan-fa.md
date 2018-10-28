@@ -27,7 +27,13 @@
 
 #### 注册GitHub账号
 
-首先，在浏览器中打开[GitHub](https://github.com), 映入眼帘的是一只黑色章鱼🐙猫🐱，是不是和我的衣服上的标志差不多😝。 ![GitHub](https://i.loli.net/2018/10/25/5bd139d1c1fc5.png)
+首先，在浏览器中打开[GitHub](https://github.com), 映入眼帘的是一只黑色章鱼🐙猫🐱，是不是和我的衣服上的标志差不多😝。
+
+
+
+![GitHub](https://i.loli.net/2018/10/25/5bd139d1c1fc5.png)
+
+
 
 * `Sign in`就是登陆啦，如果你注册了一个账号就直接登陆就是喽
 * `Sign up`注册一个新的账号
@@ -41,7 +47,15 @@
 
 > 这个B的英语我也是服了。
 
-注册完登陆我们就来到了这样的一个界面： ![Home Page](https://i.loli.net/2018/10/25/5bd13b2126bbb.png) 我们打开页面右上角的`Setting`, 打开`Your Profile`, 就会跳转到我们的个人主页： ![&#x4E0D;&#x8981;&#x76D7;&#x6211;&#x7684;&#x56FE;&#xFF0C;&#x518D;&#x76D7;&#x5C31;&#x5168;&#x7EFF;&#x4E86;&#x1F606;](https://i.loli.net/2018/10/25/5bd13c3caae63.png)
+注册完登陆我们就来到了这样的一个界面：
+
+  
+
+![Home Page](https://i.loli.net/2018/10/25/5bd13b2126bbb.png)
+
+我们打开页面右上角的`Setting`, 打开`Your Profile`, 就会跳转到我们的个人主页： 
+
+![&#x4E0D;&#x8981;&#x76D7;&#x6211;&#x7684;&#x56FE;&#xFF0C;&#x518D;&#x76D7;&#x5C31;&#x5168;&#x7EFF;&#x4E86;&#x1F606;](https://i.loli.net/2018/10/25/5bd13c3caae63.png)
 
 **下载git**
 
@@ -57,7 +71,13 @@ pwd                #print working directory显示当前路径。
 
 **创建Repo**
 
-新建一个`Repository`，点击页面上面的`New repository` ![New repository](http://p923bw9fi.bkt.clouddn.com/new_repository.png)
+新建一个`Repository`，点击页面上面的`New repository`
+
+ 
+
+![New repository](http://p923bw9fi.bkt.clouddn.com/new_repository.png)
+
+
 
 * 这个`Repository name`,你随意,不过并不建议用中文名.
 * `Public`就是这个，点击`Create repository`就可以完成创建。
@@ -88,7 +108,13 @@ cat /c/Users/zip/.ssh/id_rsa.pub
 
 **git命令**
 
-下面命令均在`Git bash`或`Terminal`中执行。 打开我们的项目仓库页面, 复制仓库地址。将远程仓库克隆到本地计算机： ![Repo Address](https://i.loli.net/2018/10/25/5bd188e2f1e3c.png)
+下面命令均在`Git bash`或`Terminal`中执行。 打开我们的项目仓库页面, 复制仓库地址。将远程仓库克隆到本地计算机：
+
+ 
+
+![Repo Address](https://i.loli.net/2018/10/25/5bd188e2f1e3c.png)
+
+
 
 ```bash
 git clone git@github.com:ourfor/Java_note.git # 使用ssh方式clone, 那么你必须在该仓库中添加你的ssh key, 所以对于别人项目你只能使用https的方式clone。
@@ -273,13 +299,15 @@ sudo dnf update -y
 
 显然这种表格是很简单的, 对于更加复杂的表格, markdown就有点心有余而力不足了, 还好兼容html, 我们就可以用html的方式插入表格:
 
+
+
 |  | 星期一 | 星期二 | 星期三 | 星期四 | 星期五 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| :--- | :---: | :---: | :---: | :---: | :---: |
 | 第一节 | 高等数学A\(理化214\) | 线性代数\(理化327\) | 软件综合\(一\)\(机房\) | 程序设计基础\(理化327\) | 软件综合\(一\)\(机房\) |
 | 第二节 |  |  |  |  |  |
 | 第三节 | 程序设计基础\(理化327\) | 大学英语\(至105\) | 大学体育\(体育馆\) |  |  |
 | 第四节 |  |  |  |  |  |
-| 午安 | 我的课表居然这么满🍎🍏🍐🍑🍒🍓🥝🍅 |  |  |  |  |
+| 午安 | 我的课表居然这么满🍎🍏🍐🍑🍒🍓🥝🍅 |  **** |  |  |  |
 | 第五节 | 程序设计基础\(机房\) | 面向对象软件方法学\(至308\) | 算法分析与设计\(至308\) |  | 操作系统\(至116\) |
 | 第六节 |  |  |  |  |  |
 | 第七节 |  |  |  |  |  |
@@ -289,25 +317,91 @@ sudo dnf update -y
 | 第二节 |  |  |  |  |  |
 | 第三节 |  |  |  |  |  |
 
-**HTML代码** \`\`\`html
+**HTML代码** 
 
-|  | 星期一 | 星期二 | 星期三 | 星期四 | 星期五 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 第一节 | 高等数学A\(理化214\) | 线性代数\(理化327\) | 软件综合\(一\)\(机房\) | 程序设计基础\(理化327\) | 软件综合\(一\)\(机房\) |
-| 第二节 |  |  |  |  |  |
-| 第三节 | 程序设计基础\(理化327\) | 大学英语\(至105\) | 大学体育\(体育馆\) |  |  |
-| 第四节 |  |  |  |  |  |
-| 午安 | 我的课表居然这么满🍎🍏🍐🍑🍒🍓🥝🍅 |  |  |  |  |
-| 第五节 | 程序设计基础\(机房\) | 面向对象软件方法学\(至308\) | 算法分析与设计\(至308\) |  | 操作系统\(至116\) |
-| 第六节 |  |  |  |  |  |
-| 第七节 |  |  |  |  |  |
-| 第八节 |  |  |  |  |  |
-| 傍晚 | 认识你真好🍇🍈🍉🍊🍋🍌🍍 |  |  |  |  |
-| 第一节 | Java校选课\(至502\) |  |  |  | 概率论与数理统计\(至117\) |
-| 第二节 |  |  |  |  |  |
-| 第三节 |  |  |  |  |  |
-
- \`\`\`
+```markup
+<table>
+<th>
+  <td align=center>星期一</td>
+  <td align=center>星期二</td>
+  <td align=center>星期三</td>
+  <td align=center>星期四</td>
+  <td align=center>星期五</td>
+  </th>
+  <tr>
+  <td>第一节</td>
+  <td align=center rowspan=2>高等数学A(理化214)</td>
+  <td align=center rowspan=2>线性代数(理化327)</td>
+  <td align=center rowspan=4>软件综合(一)(机房)</td>
+  <td align=center rowspan=2>程序设计基础(理化327)</td>
+  <td align=center rowspan=4>软件综合(一)(机房)</td>
+  </tr>
+  <tr>
+  <td>第二节</td>
+  </tr>
+  <tr>
+  <td>第三节</td>
+  <td align=center rowspan=2>程序设计基础(理化327)</td>
+  <td align=center rowspan=2>大学英语(至105)</td>
+  <td align=center rowspan=2>大学体育(体育馆)</td>
+  </tr>
+  <tr>
+  <td>第四节</td>
+  </tr>
+  <tr>
+  <td align=center>午安</td>
+  <td align=center colspan=5>我的课表居然这么满🍎🍏🍐🍑🍒🍓🥝🍅</td>
+  </tr>
+  <tr>
+  <td>第五节</td>
+  <td align=center rowspan=4>程序设计基础(机房)</td>
+  <td align=center rowspan=3>面向对象软件方法学(至308)</td>
+  <td align=center rowspan=3>算法分析与设计(至308)</td>
+  <td></td>
+  <td align=center rowspan=3>操作系统(至116)</td>
+  </tr>
+  <tr>
+  <td>第六节</td>
+  <td></td>
+  
+  </tr>
+  <tr>
+  <td>第七节</td>
+  <td></td>
+  </tr>
+  <tr>
+  <td>第八节</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
+  <td align=center>傍晚</td>
+  <td align=center colspan=5>认识你真好🍇🍈🍉🍊🍋🍌🍍</td>
+  </tr>
+  <tr>
+  <td>第一节</td>
+  <td align=center rowspan=3>Java校选课(至502)</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td align=center rowspan=3>概率论与数理统计(至117)</td>
+  </tr>
+  <tr>
+  <td>第二节</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
+  <td>第三节</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  </tr>
+</table>
+```
 
 数学公式:
 
